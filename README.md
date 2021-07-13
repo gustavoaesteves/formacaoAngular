@@ -16,3 +16,9 @@ Cursos voltados para o desenvolvimento no Framework Angular.
     - Aprenda a utilizar modificadores de acesso, herança e tipos genéricos
     - Conheça gradativamente os recursos do TypeScript compiler
     - Entenda o papel dos Type Definitions
+
+2 - TypeScript parte 2: Avançando na linguagem
+    - Aprenda a utilizar modificadores de acesso, herança e tipos genéricos
+    - Entenda o papel das Enumerations
+    - Crie um mini framework de atualização de view inspirado no JSX
+    - Configure ainda mais seu compilador TS e tire máximo proveito do seu código
