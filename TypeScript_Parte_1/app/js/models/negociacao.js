@@ -1,8 +1,3 @@
-/**
- *@author Gustavo Esteves
- * Criada para fazer as principais negociações
- * @class Negociacao
- */
 class Negociacao {
     constructor(_data, _quantidade, _valor) {
         this._data = _data;
@@ -12,11 +7,11 @@ class Negociacao {
     get data() {
         return this._data;
     }
-    get valor() {
-        return this._valor;
-    }
     get quantidade() {
         return this._quantidade;
+    }
+    get valor() {
+        return this._valor;
     }
     get volume() {
         return this._quantidade * this._valor;
