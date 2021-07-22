@@ -22,3 +22,10 @@ Cursos voltados para o desenvolvimento no Framework Angular.
     - Entenda o papel das Enumerations
     - Crie um mini framework de atualização de view inspirado no JSX
     - Configure ainda mais seu compilador TS e tire máximo proveito do seu código
+
+3 - Angular: Começando com o framework
+    - Utilize os recursos do framework para acelerar o desenvolvimento
+    - Aprenda a criar componentes Angular
+    - Entenda como transmitir informação entre componentes
+    - Integre dados com API’s REST
+    - Transforme seus componentes em páginas
