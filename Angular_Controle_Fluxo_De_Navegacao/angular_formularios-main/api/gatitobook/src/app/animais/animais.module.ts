@@ -5,9 +5,12 @@ import { CommonModule } from '@angular/common';
 import { AnimaisRoutingModule } from './animais-routing.module';
 import { ListaAnimaisComponent } from './lista-animais/lista-animais.component';
 import { AnimalComponent } from './animal/animal.component';
+import { GradeFotosAnimaisComponent } from './grade-fotos-animais/grade-fotos-animais.component';
+import { DetalhesAnimalComponent } from './detalhes-animal/detalhes-animal.component';
+import { ComentariosComponent } from './detalhes-animal/comentarios/comentarios.component';
 
 @NgModule({
-  declarations: [ListaAnimaisComponent, AnimalComponent],
+  declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent, DetalhesAnimalComponent, ComentariosComponent],
   imports: [CommonModule, AnimaisRoutingModule, CartaoModule],
 })
 export class AnimaisModule {}
