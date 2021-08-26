@@ -1,3 +1,5 @@
+import { ReactiveFormsModule } from '@angular/forms';
+import { MensagemModule } from './../componentes/mensagem/mensagem.module';
 import { CartaoModule } from './../componentes/cartao/cartao.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,7 +12,19 @@ import { DetalhesAnimalComponent } from './detalhes-animal/detalhes-animal.compo
 import { ComentariosComponent } from './detalhes-animal/comentarios/comentarios.component';
 
 @NgModule({
-  declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent, DetalhesAnimalComponent, ComentariosComponent],
-  imports: [CommonModule, AnimaisRoutingModule, CartaoModule],
+  declarations: [
+    ListaAnimaisComponent,
+    AnimalComponent,
+    GradeFotosAnimaisComponent,
+    DetalhesAnimalComponent,
+    ComentariosComponent,
+  ],
+  imports: [
+    CommonModule,
+    AnimaisRoutingModule,
+    CartaoModule,
+    MensagemModule,
+    ReactiveFormsModule,
+  ],
 })
 export class AnimaisModule {}

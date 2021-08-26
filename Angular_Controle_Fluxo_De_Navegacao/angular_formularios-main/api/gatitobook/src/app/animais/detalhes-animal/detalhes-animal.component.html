@@ -6,10 +6,17 @@
     <div class="col-lg-4">
       <small>
         <p class="text-left break-word">{{animal.description}}</p>
-        <i (click)="curtir()" lass="fa fa-heart-o fa-2x mr-2 pull-left">{{animal.likes}}</i>
+        <i (click)="curtir()" class="fa fa-heart-o fa-2x mr-2 pull-left">{{animal.likes}}</i>
         <i class="fa fa-comment-o fa-2x mr-2 ml-2">{{animal.comments}}</i>
         <i (click)="excluir()" class="fa fa-trash-o fa-2x pull-right">{{animal.comments}}</i>
       </small>
+
+      <app-comentarios [id]="animalID" *ngIf="animal.allowComments; else warning"></app-comentarios>
+
+      <ng-template #warning>
+        <p>Usuário não pode comentar animal</p>
+      </ng-template>
+
     </div>
   </div>
 </div>
