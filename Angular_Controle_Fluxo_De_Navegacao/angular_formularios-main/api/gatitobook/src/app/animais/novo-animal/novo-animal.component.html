@@ -25,7 +25,7 @@
           placeholder="Descrição do Animal">
         </textarea>
         <app-mensagem
-          mensagem="Tamanho máximo do campo é 300 caracteres"
+          mensagem="Tamanho máximo é 300 caracteres"
           *ngIf= "!! formularioAnimal.get('description')?.errors?.maxlength">
 
         </app-mensagem>
