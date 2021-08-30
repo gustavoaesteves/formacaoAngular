@@ -21,6 +21,13 @@
         <a (click)="logout()">Logout</a>
       </div>
     </div>
+    <app-menu>
+      <ul class="list-unstyled">
+        <li>
+          <a [routerLink]="['animais','novo']">Novo Animal</a>
+        </li>
+      </ul>
+    </app-menu>
   </nav>
 
   <ng-template #login>

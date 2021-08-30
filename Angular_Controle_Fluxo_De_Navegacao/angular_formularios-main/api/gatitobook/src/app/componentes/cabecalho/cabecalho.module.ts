@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [CabecalhoComponent],
-  imports: [CommonModule, RouterModule, MenuModule],
+  imports: [CommonModule, RouterModule, MenuModule, MenuModule],
   exports: [CabecalhoComponent],
 })
 export class CabecalhoModule {}
