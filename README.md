@@ -1,4 +1,4 @@
-﻿# formacaoAngular
+﻿# Formacão Angular
 
 Cursos voltados para o desenvolvimento no Framework Angular.
 
