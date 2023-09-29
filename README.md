@@ -57,3 +57,6 @@ npm start -> faz o sistema ficar se atualizando tempo todo.
 - Desenvolver uma busca dinâmica;
 - Utilizar o pipe async;
 - Encadear os operadores switchMap, filter e debounceTime para otimizar a performance da aplicação.
+- - Capturar erros com os operadores catchError e throwError;
+- Utilizar o operador EMPTY;
+- Mostrar mensagens de erro para a pessoa usuária.
