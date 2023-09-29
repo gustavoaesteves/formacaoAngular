@@ -42,3 +42,18 @@ npm start -> faz o sistema ficar se atualizando tempo todo.
 - Aprenda a criar formulários simples com módulo de Formulários Template Driven 
 - Crie formulários elaborados utilizando o módulo de Formulários Reativos - Desenvolva validações síncronas e assíncronas para seus formulários. 
 - Aprenda como utilizar token JWT no seu projeto Angular
+
+5 - Angular e RxJS: programação reativa
+- Lidar com a biblioteca RxJS;
+- Aplicar o padrão Observer.
+- Utilizar os métodos next, error e complete;
+- Desinscrever-se do observable através do unsubscribe;
+- Utilizar o operador pipe para agrupar múltiplos operadores;
+- Utilizar o operador tap para fazer debugging na aplicação;
+- Transformar o fluxo de dados com o operador map.
+- Transformar dados com pipes;
+- Passar parâmetros e utilizar pipes encadeados;
+- Criar um pipe customizado.
+- Desenvolver uma busca dinâmica;
+- Utilizar o pipe async;
+- Encadear os operadores switchMap, filter e debounceTime para otimizar a performance da aplicação.
