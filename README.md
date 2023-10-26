@@ -57,6 +57,26 @@ npm start -> faz o sistema ficar se atualizando tempo todo.
 - Desenvolver uma busca dinâmica;
 - Utilizar o pipe async;
 - Encadear os operadores switchMap, filter e debounceTime para otimizar a performance da aplicação.
-- - Capturar erros com os operadores catchError e throwError;
+- Capturar erros com os operadores catchError e throwError;
 - Utilizar o operador EMPTY;
 - Mostrar mensagens de erro para a pessoa usuária.
+
+6 - Angular: testes automatizados com Jasmine e Karma
+- Estrutura mínima para declaração de testes
+- Teste de expectativas
+- Evitando vícios na criação de testes
+- A importância de testes precisos, legíveis e fáceis de manter
+- O papel da função beforeEach
+- Teste de exeções
+- Expectativas com contexto
+- A diferença entre as funções toBe, ToBeTrue e ToBeTruthy
+- TestBed e criação de módulos de teste
+- Abordagens Test First / Test Later
+- Fixture de componentes
+- Teste de input e output properties
+- Asserções assíncronas
+- Introdução ao uso do Spy
+- Testes em paralelo e com diferentes navegadores
+- Trabalhando com navegadores Headless
+- Lançadores customizados
+- Cobertura de testes e relatório
